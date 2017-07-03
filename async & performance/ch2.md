@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 2: Callbacks](#chapter-2-callbacks)
+  - [Continuations](#continuations)
+  - [Sequential Brain](#sequential-brain)
+    - [Doing Versus Planning](#doing-versus-planning)
+    - [Nested/Chained Callbacks](#nestedchained-callbacks)
+  - [Trust Issues](#trust-issues)
+    - [Tale of Five Callbacks](#tale-of-five-callbacks)
+    - [Not Just Others' Code](#not-just-others-code)
+  - [Trying to Save Callbacks](#trying-to-save-callbacks)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 2: Callbacks
 

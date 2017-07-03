@@ -1,3 +1,57 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 3: Promises](#chapter-3-promises)
+  - [What Is a Promise?](#what-is-a-promise)
+    - [Future Value](#future-value)
+      - [Values Now and Later](#values-now-and-later)
+      - [Promise Value](#promise-value)
+    - [Completion Event](#completion-event)
+      - [Promise "Events"](#promise-events)
+  - [Thenable Duck Typing](#thenable-duck-typing)
+  - [Promise Trust](#promise-trust)
+    - [Calling Too Early](#calling-too-early)
+    - [Calling Too Late](#calling-too-late)
+      - [Promise Scheduling Quirks](#promise-scheduling-quirks)
+    - [Never Calling the Callback](#never-calling-the-callback)
+    - [Calling Too Few or Too Many Times](#calling-too-few-or-too-many-times)
+    - [Failing to Pass Along Any Parameters/Environment](#failing-to-pass-along-any-parametersenvironment)
+    - [Swallowing Any Errors/Exceptions](#swallowing-any-errorsexceptions)
+    - [Trustable Promise?](#trustable-promise)
+    - [Trust Built](#trust-built)
+  - [Chain Flow](#chain-flow)
+    - [Terminology: Resolve, Fulfill, and Reject](#terminology-resolve-fulfill-and-reject)
+  - [Error Handling](#error-handling)
+    - [Pit of Despair](#pit-of-despair)
+    - [Uncaught Handling](#uncaught-handling)
+    - [Pit of Success](#pit-of-success)
+  - [Promise Patterns](#promise-patterns)
+    - [Promise.all([ .. ])](#promiseall--)
+    - [Promise.race([ .. ])](#promiserace--)
+      - [Timeout Race](#timeout-race)
+      - ["Finally"](#finally)
+    - [Variations on all([ .. ]) and race([ .. ])](#variations-on-all---and-race--)
+    - [Concurrent Iterations](#concurrent-iterations)
+  - [Promise API Recap](#promise-api-recap)
+    - [new Promise(..) Constructor](#new-promise-constructor)
+    - [Promise.resolve(..) and Promise.reject(..)](#promiseresolve-and-promisereject)
+    - [then(..) and catch(..)](#then-and-catch)
+    - [Promise.all([ .. ]) and Promise.race([ .. ])](#promiseall---and-promiserace--)
+  - [Promise Limitations](#promise-limitations)
+    - [Sequence Error Handling](#sequence-error-handling)
+    - [Single Value](#single-value)
+      - [Splitting Values](#splitting-values)
+      - [Unwrap/Spread Arguments](#unwrapspread-arguments)
+    - [Single Resolution](#single-resolution)
+    - [Inertia](#inertia)
+    - [Promise Uncancelable](#promise-uncancelable)
+    - [Promise Performance](#promise-performance)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 3: Promises
 

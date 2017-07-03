@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 1: Asynchrony: Now & Later](#chapter-1-asynchrony-now--later)
+  - [A Program in Chunks](#a-program-in-chunks)
+    - [Async Console](#async-console)
+  - [Event Loop](#event-loop)
+  - [Parallel Threading](#parallel-threading)
+    - [Run-to-Completion](#run-to-completion)
+  - [Concurrency](#concurrency)
+    - [Noninteracting](#noninteracting)
+    - [Interaction](#interaction)
+    - [Cooperation](#cooperation)
+  - [Jobs](#jobs)
+  - [Statement Ordering](#statement-ordering)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 1: Asynchrony: Now & Later
 

@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 6: Benchmarking & Tuning](#chapter-6-benchmarking--tuning)
+  - [Benchmarking](#benchmarking)
+    - [Repetition](#repetition)
+    - [Benchmark.js](#benchmarkjs)
+      - [Setup/Teardown](#setupteardown)
+  - [Context Is King](#context-is-king)
+    - [Engine Optimizations](#engine-optimizations)
+  - [jsPerf.com](#jsperfcom)
+    - [Sanity Check](#sanity-check)
+  - [Writing Good Tests](#writing-good-tests)
+  - [Microperformance](#microperformance)
+    - [Not All Engines Are Alike](#not-all-engines-are-alike)
+    - [Big Picture](#big-picture)
+  - [Tail Call Optimization (TCO)](#tail-call-optimization-tco)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 6: Benchmarking & Tuning
 

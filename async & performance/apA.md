@@ -1,3 +1,28 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Appendix A: *asynquence* Library](#appendix-a-asynquence-library)
+  - [Sequences, Abstraction Design](#sequences-abstraction-design)
+  - [*asynquence* API](#asynquence-api)
+    - [Steps](#steps)
+    - [Errors](#errors)
+    - [Parallel Steps](#parallel-steps)
+      - [Step Variations](#step-variations)
+      - [Error Tolerance](#error-tolerance)
+      - [Promise-Style Steps](#promise-style-steps)
+    - [Forking Sequences](#forking-sequences)
+    - [Combining Sequences](#combining-sequences)
+  - [Value and Error Sequences](#value-and-error-sequences)
+  - [Promises and Callbacks](#promises-and-callbacks)
+  - [Iterable Sequences](#iterable-sequences)
+  - [Running Generators](#running-generators)
+    - [Wrapped Generators](#wrapped-generators)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Appendix A: *asynquence* Library
 

@@ -1,3 +1,43 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 4: Generators](#chapter-4-generators)
+  - [Breaking Run-to-Completion](#breaking-run-to-completion)
+    - [Input and Output](#input-and-output)
+      - [Iteration Messaging](#iteration-messaging)
+        - [Tale of Two Questions](#tale-of-two-questions)
+    - [Multiple Iterators](#multiple-iterators)
+      - [Interleaving](#interleaving)
+  - [Generator'ing Values](#generatoring-values)
+    - [Producers and Iterators](#producers-and-iterators)
+    - [Iterables](#iterables)
+    - [Generator Iterator](#generator-iterator)
+      - [Stopping the Generator](#stopping-the-generator)
+  - [Iterating Generators Asynchronously](#iterating-generators-asynchronously)
+    - [Synchronous Error Handling](#synchronous-error-handling)
+  - [Generators + Promises](#generators--promises)
+    - [Promise-Aware Generator Runner](#promise-aware-generator-runner)
+      - [ES7: `async` and `await`?](#es7-async-and-await)
+    - [Promise Concurrency in Generators](#promise-concurrency-in-generators)
+      - [Promises, Hidden](#promises-hidden)
+  - [Generator Delegation](#generator-delegation)
+    - [Why Delegation?](#why-delegation)
+    - [Delegating Messages](#delegating-messages)
+      - [Exceptions Delegated, Too!](#exceptions-delegated-too)
+    - [Delegating Asynchrony](#delegating-asynchrony)
+    - [Delegating "Recursion"](#delegating-recursion)
+  - [Generator Concurrency](#generator-concurrency)
+  - [Thunks](#thunks)
+    - [s/promise/thunk/](#spromisethunk)
+  - [Pre-ES6 Generators](#pre-es6-generators)
+    - [Manual Transformation](#manual-transformation)
+    - [Automatic Transpilation](#automatic-transpilation)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 4: Generators
 

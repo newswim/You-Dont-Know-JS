@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Appendix B: Advanced Async Patterns](#appendix-b-advanced-async-patterns)
+  - [Iterable Sequences](#iterable-sequences)
+    - [Extending Iterable Sequences](#extending-iterable-sequences)
+  - [Event Reactive](#event-reactive)
+    - [ES7 Observables](#es7-observables)
+    - [Reactive Sequences](#reactive-sequences)
+  - [Generator Coroutine](#generator-coroutine)
+    - [State Machines](#state-machines)
+  - [Communicating Sequential Processes (CSP)](#communicating-sequential-processes-csp)
+    - [Message Passing](#message-passing)
+    - [asynquence CSP emulation](#asynquence-csp-emulation)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Appendix B: Advanced Async Patterns
 

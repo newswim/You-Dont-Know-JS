@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [You Don't Know JS: Async & Performance](#you-dont-know-js-async--performance)
+- [Chapter 5: Program Performance](#chapter-5-program-performance)
+  - [Web Workers](#web-workers)
+    - [Worker Environment](#worker-environment)
+    - [Data Transfer](#data-transfer)
+    - [Shared Workers](#shared-workers)
+    - [Polyfilling Web Workers](#polyfilling-web-workers)
+  - [SIMD](#simd)
+  - [asm.js](#asmjs)
+    - [How to Optimize with asm.js](#how-to-optimize-with-asmjs)
+    - [asm.js Modules](#asmjs-modules)
+  - [Review](#review)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # You Don't Know JS: Async & Performance
 # Chapter 5: Program Performance
 
